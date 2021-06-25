@@ -1,0 +1,16 @@
+﻿<Window x:Class="Pharma.login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Login" Height="400" Width="300" FontSize="14" Background="#04c582">
+    <Border Background="#2e3137" CornerRadius="20" Margin="20">
+        <StackPanel Margin="20">
+            <Label Content="Login" Foreground="White" FontSize="25" HorizontalAlignment="Center"/>
+            <Separator></Separator>
+            <Label Content="Usuario" Foreground="White"/>
+            <TextBox x:Name ="txtUsername" Background="#545d6a" Foreground="White" FontSize="18"/>
+            <Label Content="Contraseña" Foreground="White"/>
+            <PasswordBox x:Name="txtPassword" Background="#545d6a" Foreground="White" FontSize="18"/>
+            <Button x:Name="btnSubmit" Content="Login" Margin="60,90,60.2,10" Background="#545d6a" Foreground="White" FontSize="18" Click="btnSubmit_Click"/>
+        </StackPanel>
+    </Border>
+</Window>
